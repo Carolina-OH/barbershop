@@ -9912,26 +9912,24 @@ h3 {
 .navbar {
   background-color: black;
 }
+.navbar .navbar__logo {
+  width: 2rem;
+}
 
 section {
   padding: 5% 10% 10% 5%;
 }
 
-.pagination {
-  background-color: lightgray;
-}
-
 article {
   padding: 5% 10% 10% 5%;
-}
-
-.pagination_lista {
-  margin-left: auto;
-  margin-right: auto;
+  border: 1px solid grey;
 }
 
 footer {
   background-color: black;
+}
+footer .footer__logo {
+  width: 2rem;
 }
 
 header {
@@ -9942,11 +9940,21 @@ header {
   color: white;
   text-align: center;
   align-items: middle;
-  padding-top: 50%;
+  padding-top: 40%;
+  font-size: 4rem;
 }
 
-.logo {
-  width: 10rem;
+.pagination {
+  background-color: lightgray;
+  padding-right: 0;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section__btn {
+  border-radius: 25px;
 }
 
 /* main.scss # Manifest File
