@@ -9934,16 +9934,19 @@ footer {
   background-color: black;
 }
 
-.img {
+header {
   background-image: url(../img/post-image.jpg);
-  background-size: 100%;
-  width: 100%;
-  height: 800px;
+  background-size: cover;
   background-repeat: no-repeat;
+  height: 1200px;
+  color: white;
+  text-align: center;
+  align-items: middle;
+  padding-top: 50%;
 }
 
 .logo {
-  width: 14rem;
+  width: 10rem;
 }
 
 /* main.scss # Manifest File
