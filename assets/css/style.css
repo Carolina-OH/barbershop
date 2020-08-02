@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto:wght@300;400&display=swap");
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -9909,12 +9910,18 @@ h3 {
     border-color: #dee2e6;
   }
 }
+/* Reset*/
+body {
+  margin: 0;
+}
+
 .navbar {
   background-color: #121619;
   color: #FFF;
 }
 .navbar__logo {
-  width: 2rem;
+  width: 15rem;
+  padding: 2% 0% 2% 10%;
 }
 
 .navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
@@ -9926,57 +9933,90 @@ h3 {
   border-color: transparent;
 }
 
+@media (max-width: 768px) {
+  .navbar__logo {
+    width: 100px;
+    padding: 2% 0% 2% 10%;
+  }
+}
 section {
-  padding: 5% 10% 10% 5%;
+  padding: 5% 10% 5% 10%;
+  line-height: 3rem;
+  text-align: left;
+  font-size: 16px;
 }
 
 article {
-  padding: 5% 10% 10% 5%;
+  padding: 5% 5% 5% 10%;
   border: 0.0625rem solid #E6E7E7;
 }
 article img {
   border-radius: 100%;
+  width: 100%;
+}
+article__parrafo-grande {
+  margin-top: 0;
+  margin-left: 10%;
 }
 
-footer {
-  background-color: black;
+.footer {
+  background-color: #121619;
+  padding: 5% 0% 5% 0%;
 }
-footer__logo {
-  width: 2rem;
+.footer__logo {
+  width: 100px;
 }
 
+@media (max-width: 768px) {
+  .footer {
+    padding: 15% 0% 15% 0%;
+  }
+  .footer__logo {
+    width: 100px;
+  }
+}
 header {
   background-image: url(../img/post-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 75rem;
-  padding-top: 40%;
-  font-size: 4rem;
+  padding-top: 25%;
+  font-size: 70px;
   color: #FFF;
   text-align: center;
   align-items: middle;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+header i {
+  padding-top: 30%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.9px) {
   header {
-    background-image: url(../img/post-image.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     height: 30rem;
-    padding-top: 70%;
+    padding-top: 60%;
+    padding-left: 10%;
+    padding-right: 10%;
     font-size: 2rem;
-    color: #FFF;
-    text-align: center;
-    align-items: middle;
+  }
+  header i {
+    padding-top: 10%;
   }
 }
+.section__btn {
+  border-radius: 25px;
+  border-color: transparent;
+  background-color: #6C6E70;
+  color: #FFF;
+}
+
 .pagination {
   background-color: #D1D1D1;
   padding-right: 0;
-  padding-top: 2%;
-  padding-bottom: 1%;
+  padding-top: 25px;
+  padding-bottom: 25px;
   margin-left: auto;
   margin-right: auto;
   border-color: #E6E7E7;
@@ -9999,35 +10039,44 @@ header {
   border-radius: 0px 1.5625rem 1.5625rem 0px;
 }
 
-.section__btn {
-  border-radius: 25px;
-  border-color: transparent;
-  background-color: #6C6E70;
-  color: #FFF;
+@media (max-width: 767.9px) {
+  .page-item.active .page-link {
+    background-color: #121619;
+    border: none;
+  }
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #222323;
+  font-size: 16px;
 }
 
-/* main.scss # Manifest File
-@import 'abstracts/variables';
-@import 'abstracts/functions';
-@import 'abstracts/mixins';
-@import 'abstracts/placeholders';
-@import 'vendors/bootstrap';
-@import 'vendors/jquery-ui';
-@import 'base/reset';
-@import 'base/typography';
-@import 'layout/navigation';
-@import 'layout/grid';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'layout/sidebar';
-@import 'layout/forms';
-@import 'components/buttons';
-@import 'components/carousel';
-@import 'components/cover';
-@import 'components/dropdown';
-@import 'pages/home';
-@import 'pages/contact';
-@import 'themes/theme';
-@import 'themes/admin';*/
+.titulo__parrafo {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.article__parrafo-grande {
+  line-height: 2rem;
+  font-size: 0.75rem;
+}
+.article__name {
+  color: #121619;
+  line-height: 3rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+.article__insta, .article__web {
+  color: #ECBCBA;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.section__parrafo {
+  font-family: "Playfair Display", serif;
+}
 
 /*# sourceMappingURL=style.css.map */

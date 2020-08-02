@@ -4,25 +4,29 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     height: 75rem;
-    padding-top:40% ;
-    font-size: 4rem;
+    padding-top:25% ;
+    font-size: 70px;
     color: $white;
     text-align: center;
     align-items: middle;
+    padding-left:30%;
+    padding-right: 30%;
+
+    i{
+        padding-top: 30%;
+    }
     }
 
-    @media (max-width: 768px) { 
+    @media (max-width: 767.9px) { 
         header{
-            background-image: url(../img/post-image.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
             height: 30rem;
-            padding-top:70% ;
+            padding-top:60% ;
+            padding-left: 10%;
+            padding-right:10%;
             font-size: 2rem;
-            color: $white;
-            text-align: center;
-            align-items: middle;
+            
+            i{
+                padding-top: 10%;
             }
-    
+    }
     }

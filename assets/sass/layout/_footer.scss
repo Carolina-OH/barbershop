@@ -1,7 +1,19 @@
-footer{
-    background-color: black;
+.footer{
+    background-color:$eerie-black;
+    padding: 5% 0% 5% 0%;
     &__logo{
-        width: 2rem;
+        width:  100px;
+    }  
+}
+
+@media (max-width: 768px) { 
+    .footer{
+     padding: 15% 0% 15% 0%;
+       &__logo{
+           width: 100px;
+    
+        }
+
 
     }
-}
+    }

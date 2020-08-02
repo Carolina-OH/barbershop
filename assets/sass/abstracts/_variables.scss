@@ -1,3 +1,6 @@
+//import
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto:wght@300;400&display=swap');
+
 //colores
 $white:#FFF;
 $platinum: #E6E7E7;
@@ -8,3 +11,21 @@ $spanish-pink: #ECBCBA;
 $eerie-black: #121619;
 $raisin-black: #222323;
 $nickel: #6C6E70;
+
+//Fuentes
+
+$roboto:'Roboto', sans-serif;
+$roboto-light:300;
+$roboto-regular:400;
+
+$play-fair-display:'Playfair Display', serif;
+$play-fair-display-regular: 400;
+$play-fair-display-black:900;
+
+$primary-font:$roboto;
+$primary-font-light:$roboto-light;
+$primary-font-regular:$roboto-regular;
+
+$secondary-font:$play-fair-display;
+$secondary-font-regular:$play-fair-display-regular;
+$secondary-font-black:$play-fair-display-black;

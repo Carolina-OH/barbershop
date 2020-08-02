@@ -2,8 +2,8 @@
     background-color: $eerie-black;
     color: $white;
     &__logo{
-        
-        width: 2rem;    
+        width: 15rem;  
+        padding: 2% 0% 2% 10%;
     }
     
 }
@@ -14,4 +14,15 @@
 .navbar-dark .navbar-toggler{
     color:$white;
     border-color: transparent;
+}
+
+@media (max-width: 768px) { 
+    .navbar{
+        &__logo{
+            width: 100px;  
+            padding: 2% 0% 2% 10%;
+        }
+        
+    }
+
 }

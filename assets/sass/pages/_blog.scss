@@ -1,0 +1,49 @@
+body{
+    font-family: $primary-font;
+    color: $raisin-black;
+    font-size: 16px;
+
+}
+
+    .titulo{
+    &__parrafo{
+            font-family: $secondary-font;
+            font-weight: $secondary-font-black;
+            font-style: italic;
+    }
+    }
+    .article{
+    &__parrafo-grande{
+            line-height: 2rem;
+            font-size: 0.75rem;
+   
+    }
+    &__name{
+    color:$eerie-black;
+    line-height: 3rem;
+    font-family: $secondary-font;
+    font-weight: $secondary-font-black;
+    font-style: italic;
+    font-size: 1.5rem;
+    
+        
+    }
+        
+    &__insta{
+    color:$spanish-pink;
+    font-family: $primary-font;
+    font-weight: $primary-font-light;
+    font-size: 1rem;
+    
+    }
+    &__web{
+    @extend .article__insta ;
+    
+    }
+}
+
+.section{
+    &__parrafo{
+        font-family: $secondary-font;
+    }
+}
