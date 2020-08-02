@@ -2,7 +2,7 @@
     background-color: $eerie-black;
     color: $white;
     &__logo{
-        width: 15rem;  
+        width: 18rem;  
         padding: 2% 0% 2% 10%;
     }
     
@@ -16,7 +16,7 @@
     border-color: transparent;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 765px) { 
     .navbar{
         &__logo{
             width: 100px;  

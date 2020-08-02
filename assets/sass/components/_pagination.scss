@@ -7,6 +7,9 @@
     margin-right: auto;
     border-color: $platinum;
     text-align: center;
+    .page-link{
+        color: $eerie-black;
+    }
    
 }
 .page-item.active .page-link{
