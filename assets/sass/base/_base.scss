@@ -1,1 +1,10 @@
-//Font Family
+body {
+    height: 100vh;
+    background-color: $white;
+    }
+    /* Base Typography*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: $primary-font;
+    font-weight: $primary-font-regular;
+    font-size: 16px;
+    }
