@@ -1,9 +1,17 @@
 .navbar{
-    background-color: black;
-
-    .navbar__logo{
+    background-color: $eerie-black;
+    color: $white;
+    &__logo{
         
-        width: 2rem;
-        
+        width: 2rem;    
     }
+    
+}
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
+    color:$ruddy-pink;
+}
+
+.navbar-dark .navbar-toggler{
+    color:$white;
+    border-color: transparent;
 }

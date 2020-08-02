@@ -2,12 +2,27 @@ header{
     background-image: url(../img/post-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 1200px;
-    color: white;
-    text-align: center;
-    align-items: middle;
+    background-position: center;
+    height: 75rem;
     padding-top:40% ;
     font-size: 4rem;
-
+    color: $white;
+    text-align: center;
+    align-items: middle;
     }
 
+    @media (max-width: 768px) { 
+        header{
+            background-image: url(../img/post-image.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 30rem;
+            padding-top:70% ;
+            font-size: 2rem;
+            color: $white;
+            text-align: center;
+            align-items: middle;
+            }
+    
+    }
